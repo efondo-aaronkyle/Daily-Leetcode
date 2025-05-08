@@ -17,3 +17,7 @@ def roman_to_integer(roman_numeral):
             result += roman_to_int[roman_numeral[roman]]
     
     return result
+
+print(roman_to_integer("III"))
+print(roman_to_integer("LVIII"))
+print(roman_to_integer("MCMXCIV"))
